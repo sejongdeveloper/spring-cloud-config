@@ -5,7 +5,7 @@ spring:
     password: '{cipher}AQB+uqwW5Ha25qUUDlAEt9RnDpbnu4vcyKSb0xs0UwmTySqTtQwEs5o66qMgh0/oD2BbvwTS4IhFicZlp4YoJEhiEL1ueAGga89FUesR1M09G1mjUTtrltrWx8R9Gs3vLa6vXyrAWBBb7ZNBn2Gn4MkXDK1VfBLpJ34Jt4dX+BSyPT8iQXYV+hatQxUYF97z/+1Vl14juqql54NvkxdNXv45/wEDUdYt/Xv7NNyhRA+ufGpTgec1tYjmvTfOGg7iVDPoBpSgqcZuwo7fauqsvRankGFbFz8StRw2HCv0VBbibEi1cqZVQz743PfJMM2sLXNQdHgf5P+5QYkm6dxyqmr/835KPVjWgKKz6pK4U+G/7nmPl+y12d+Hj/lw+S7BcWg='
 
 gateway:
-  ip: 172.18.0.2
+  ip: 192.168.0.5
   
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders  
